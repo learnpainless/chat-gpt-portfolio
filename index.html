@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawneshwer Gupta - Portfolio</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100">
+    <header class="bg-blue-500 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-semibold">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+                    <!-- Background Circle -->
+                    <circle cx="50" cy="50" r="45" fill="#ff0000" />
+
+                    <!-- Text "PG" -->
+                    <text x="50%" y="50%" text-anchor="middle" dy=".3em" font-size="40" font-weight="bold"
+                        fill="white">PG</text>
+                </svg>
+
+            </h1>
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="block lg:hidden">
+                <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                    </path>
+                </svg>
+            </button>
+            <!-- Desktop Menu -->
+            <nav class="hidden lg:flex space-x-4">
+                <a href="#" class="hover:underline">Home</a>
+                <a href="#about" class="hover:underline">About</a>
+                <a href="#projects" class="hover:underline">Projects</a>
+                <a href="#testimonials" class="hover:underline">Testimonials</a>
+                <a href="#skills" class="hover:underline">Skills</a>
+                <a href="#achievements" class="hover:underline">Achievements</a>
+                <a href="#contact" class="hover:underline">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="lg:hidden hidden bg-blue-500 text-white p-4">
+        <a href="#" class="block py-2 px-4 hover:bg-blue-600">Home</a>
+        <a href="#about" class="block py-2 px-4 hover:bg-blue-600">About</a>
+        <a href="#projects" class="block py-2 px-4 hover:bg-blue-600">Projects</a>
+        <a href="#testimonials" class="block py-2 px-4 hover:bg-blue-600">Testimonials</a>
+        <a href="#skills" class="block py-2 px-4 hover:bg-blue-600">Skills</a>
+        <a href="#achievements" class="block py-2 px-4 hover:bg-blue-600">Achievements</a>
+        <a href="#contact" class="block py-2 px-4 hover:bg-blue-600">Contact</a>
+    </div>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-12">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold mb-4">About Us</h2>
+            <p class="text-gray-700">
+                Welcome to my portfolio! I'm Pawneshwer Gupta, a dedicated software developer with a passion for
+                creating elegant and efficient solutions. With a solid foundation in various programming languages and
+                frameworks, I am committed to turning ideas into functional, user-friendly applications.
+            </p>
+            <p class="text-gray-700 mt-4">
+                My journey in software development started with a strong curiosity for technology and a desire to make a
+                positive impact. I believe in continuous learning and enjoy staying up-to-date with the latest trends
+                and innovations in the field. My goal is to contribute to projects that solve real-world problems and
+                enhance the digital landscape.
+            </p>
+            <p class="text-gray-700 mt-4">
+                When I'm not coding, you can find me exploring new hiking trails, reading about emerging technologies,
+                or experimenting with new recipes in the kitchen. I'm excited to collaborate, learn, and share
+                experiences with fellow developers and creators. Thank you for visiting my portfolio!
+            </p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-12 bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold mb-4">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project Card 1 -->
+                <div class="bg-gray-200 p-4 rounded shadow">
+                    <img src="project1.jpg" alt="Project 1" class="w-full h-32 object-cover mb-4">
+                    <h3 class="text-xl font-semibold mb-2">E-Commerce Platform</h3>
+                    <p class="text-gray-700">Developed a full-stack e-commerce platform using React and Node.js,
+                        providing a seamless shopping experience.</p>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="bg-gray-200 p-4 rounded shadow">
+                    <img src="project2.jpg" alt="Project 2" class="w-full h-32 object-cover mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Task Management App</h3>
+                    <p class="text-gray-700">Built a task management application using Vue.js and Firebase, helping
+                        users organize their daily tasks.</p>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="bg-gray-200 p-4 rounded shadow">
+                    <img src="project3.jpg" alt="Project 3" class="w-full h-32 object-cover mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Portfolio Website</h3>
+                    <p class="text-gray-700">Designed and developed my personal portfolio website using Tailwind CSS to
+                        showcase my skills and projects.</p>
+                </div>
+                <!-- Project Card 1 -->
+                <div class="bg-gray-200 p-4 rounded shadow">
+                    <img src="project1.jpg" alt="Project 1" class="w-full h-32 object-cover mb-4">
+                    <h3 class="text-xl font-semibold mb-2">E-Commerce Platform</h3>
+                    <p class="text-gray-700">Developed a full-stack e-commerce platform using React and Node.js,
+                        providing a seamless shopping experience.</p>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="bg-gray-200 p-4 rounded shadow">
+                    <img src="project2.jpg" alt="Project 2" class="w-full h-32 object-cover mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Task Management App</h3>
+                    <p class="text-gray-700">Built a task management application using Vue.js and Firebase, helping
+                        users organize their daily tasks.</p>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="bg-gray-200 p-4 rounded shadow">
+                    <img src="project3.jpg" alt="Project 3" class="w-full h-32 object-cover mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Portfolio Website</h3>
+                    <p class="text-gray-700">Designed and developed my personal portfolio website using Tailwind CSS to
+                        showcase my skills and projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-12">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold mb-4">Testimonials</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial Card 1 -->
+                <div class="bg-white p-4 rounded shadow">
+                    <p class="text-gray-700">"Pawneshwer Gupta's coding skills and dedication to delivering high-quality
+                        software are truly impressive. He exceeded our expectations and contributed greatly to the
+                        success of our project."</p>
+                    <p class="mt-2"><strong>John Smith</strong><br>CEO, Acme Corporation</p>
+                </div>
+
+                <!-- Testimonial Card 2 -->
+                <div class="bg-white p-4 rounded shadow">
+                    <p class="text-gray-700">"Working with Pawneshwer was a pleasure. His ability to quickly grasp
+                        complex concepts and turn them into functional code is remarkable. He is a reliable and talented
+                        developer."</p>
+                    <p class="mt-2"><strong>Jane Doe</strong><br>CTO, Tech Innovations</p>
+                </div>
+
+                <!-- Testimonial Card 3 -->
+                <div class="bg-white p-4 rounded shadow">
+                    <p class="text-gray-700">"Pawneshwer's attention to detail and problem-solving skills are top-notch.
+                        He is an excellent communicator and consistently delivered results on time. I highly recommend
+                        him for any development project."</p>
+                    <p class="mt-2"><strong>Michael Johnson</strong><br>Product Manager, Global Solutions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-12">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold mb-4">Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Skill Card 1 -->
+                <div class="bg-white p-4 rounded shadow">
+                    <h3 class="text-xl font-semibold mb-2">Web Development</h3>
+                    <p class="text-gray-700">Proficient in HTML, CSS, and JavaScript. Experienced in building responsive
+                        and user-friendly web applications using modern frameworks like React and Vue.js.</p>
+                </div>
+
+                <!-- Skill Card 2 -->
+                <div class="bg-white p-4 rounded shadow">
+                    <h3 class="text-xl font-semibold mb-2">Backend Development</h3>
+                    <p class="text-gray-700">Skilled in server-side programming with Node.js and Express. Familiar with
+                        database management using MongoDB and SQL.</p>
+                </div>
+
+                <!-- Skill Card 3 -->
+                <div class="bg-white p-4 rounded shadow">
+                    <h3 class="text-xl font-semibold mb-2">UI/UX Design</h3>
+                    <p class="text-gray-700">Able to create visually appealing and intuitive user interfaces. Proficient
+                        in design tools such as Adobe XD and Figma.</p>
+                </div>
+
+                <!-- Add more skill cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="py-12">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-semibold mb-4 text-center">Achievements</h2>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <!-- Material Stepper -->
+                <div class="flex space-x-6">
+                    <!-- Step 1 -->
+                    <div class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500 text-white">
+                        1
+                    </div>
+                    <div class="flex-grow">
+                        <h3 class="text-lg font-semibold mb-2">Hackathon Winner</h3>
+                        <p class="text-gray-700">Won first place in the Tech Innovators Hackathon 2022, where I
+                            developed a cutting-edge health monitoring application using IoT devices.</p>
+                        <p class="mt-2 text-gray-600">June 2022</p>
+                    </div>
+                </div>
+                <!-- Step 2 -->
+                <div class="flex space-x-6 mt-6">
+                    <div class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500 text-white">
+                        2
+                    </div>
+                    <div class="flex-grow">
+                        <h3 class="text-lg font-semibold mb-2">Certified Full-Stack Developer</h3>
+                        <p class="text-gray-700">Achieved a Full-Stack Web Development certification from an
+                            industry-leading online learning platform, demonstrating proficiency in both frontend and
+                            backend technologies.</p>
+                        <p class="mt-2 text-gray-600">March 2022</p>
+                    </div>
+                </div>
+                <!-- Step 3 -->
+                <div class="flex space-x-6 mt-6">
+                    <div class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500 text-white">
+                        3
+                    </div>
+                    <div class="flex-grow">
+                        <h3 class="text-lg font-semibold mb-2">Conference Speaker</h3>
+                        <p class="text-gray-700">Presented a talk on "Best Practices in Responsive Web Design" at the
+                            National Web Development Conference, sharing insights with fellow developers.</p>
+                        <p class="mt-2 text-gray-600">October 2021</p>
+                    </div>
+                </div>
+                <!-- Add more steps as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="py-12">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold mb-4">Contact Details</h2>
+            <div class="max-w-md mx-auto">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-lg font-semibold mb-2">Get in Touch</h3>
+                    <p class="text-gray-700">Feel free to reach out to me using the contact details below:</p>
+                    <ul class="mt-4 space-y-2">
+                        <li>
+                            <span class="text-gray-600">Email:</span> <a href="mailto:pawn@prolongservices.com"
+                                class="text-blue-500 hover:underline">pawn@prolongservices.com</a>
+                        </li>
+                        <li>
+                            <span class="text-gray-600">Phone:</span> <a href="tel:+1234567890"
+                                class="text-blue-500 hover:underline">+123-456-7890</a>
+                        </li>
+                        <li>
+                            <span class="text-gray-600">Location:</span> City, State, Country
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Thank You Section -->
+    <section id="thank-you" class="py-12">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold mb-4">Thank You</h2>
+            <p class="text-gray-700">Thank you for visiting my portfolio website. If you have any questions or
+                inquiries, feel free to get in touch. I look forward to connecting with you!</p>
+            <div class="mt-8">
+                <a href="#contact" class="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-blue-500 text-white text-center p-4">
+        <p>&copy; 2023 Pawneshwer Gupta. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Toggle mobile menu
+        document.getElementById('mobile-menu-button').addEventListener('click', function () {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+    </script>
+</body>
+
+</html>
